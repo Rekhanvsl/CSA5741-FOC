@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "enter the first number"
+read a
+echo "enter the second number"
+read b
+echo "entre the third number"
+read c
+echo "enter the fourth number"
+read d
+
+sum=$(($a + $b + $c + $d))
+avg=$((echo `expr $sum / 4` )
+prod=$(($a * $b * $c * $d))
+
+echo "the sum of these number is :" $sum
+echo "the average of these  number is: " $avg
+echo "the product of these number si :" $prod
