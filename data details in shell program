@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "enter your name"
+read $name
+echo "enter your program name"
+read $prg
+echo "enter your enrollement number"
+read $en
